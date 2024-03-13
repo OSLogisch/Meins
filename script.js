@@ -1,7 +1,7 @@
 function submit() {
     let input = document.getElementById('input').value
-    let output = document.getElementById('output').textContent
+    let output = document.getElementById('output')
 
-    output = input
+    output.textContent = input
     alert(input)
 }
