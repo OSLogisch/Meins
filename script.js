@@ -3,4 +3,5 @@ function submit() {
     let output = document.getElementById('output').innerText
 
     output = input
+    alert(input)
 }
