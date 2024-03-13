@@ -1,4 +1,4 @@
-function submit() {
-    let input = document.getElementById('input')
-    document.getElementById('output').innerText = input.value
+function speichern() {
+    var wort = document.getElementById("wort").value;
+    document.write("Das eingegebene Wort lautet: " + wort);
 }

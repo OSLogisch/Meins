@@ -10,14 +10,11 @@
 
 <body>
 
-    <div>
-
-        <input type="text" id = 'input'>
-        <button onclick="submit()">Senden</button>
-
-        <p id="output"></p>
-
-    </div>
+    <form id="meinFormular">
+        <label for="wort">Wort eingeben:</label>
+        <input type="text" id="wort" name="wort">
+        <button type="submit" onclick="speichern()">Submit</button>
+    </form>
 
 </body>
 
