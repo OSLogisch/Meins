@@ -1,4 +1,9 @@
-function submit() {
-    let input = document.getElementById('input').value
-    document.getElementById('output').textContent = input
-}
+const form = document.getElementById('inForm')
+const input = document.getElementById('input')
+const output = document.getElementById('output')
+
+form.addEventListener('submit' , (e) => {
+    let eingabe = input.value
+})
+
+output.innerText = eingabe
