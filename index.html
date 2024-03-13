@@ -10,17 +10,29 @@
 
 <body>
 
-<form id = 'inForm' autocomplete="off">
+<div class='wrapper'>
 
-    <input type="text" id = 'input' placeholder="input">
-    <input type="submit" id="submit">
+    <form id='nameForm'>
 
-</form>
+        <div class='form-uname'>
 
+            <label id='nameLable' for='nameField'>Create a username:</label>
+            <input id='nameField' type='text' maxlength='25'></input>
 
-<div id="output">  </div>
+        </div>
 
-<p>version: Jetzt?</p>
+        <div class='form-sub'>
+
+            <button id='subButton' type='button'>Print your name!</button>
+
+        </div>
+        
+    </form>
+    
+    <div>
+        <p id='result'></p></div>
+
+</div>
 
 </body>
 
