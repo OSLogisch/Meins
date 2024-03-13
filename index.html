@@ -10,11 +10,11 @@
 
 <body>
 
-<input type="text" onsubmit="submit()" id = 'input' placeholder="input" onkeydown="if(event.key==='Enter') {event.preventDefault(); document.getElementById('meinFormular').submit();}">
+<input type="text" onsubmit="submit()" id = 'input' placeholder="input" onkeydown=submit_enter(event)>
 <button onclick="submit()">Submit</button>
 <p id="output"></p>
 
-<p>version: 0.11</p>
+<p>version: 0.01</p>
 
 </body>
 
