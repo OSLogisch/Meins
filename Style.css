@@ -63,8 +63,9 @@ li:hover{
 }
 
 #watermark{
-    float: left;
-    margin-bottom: 0;
+    position: absolute;
+    top: 98%;
+    left: 0;
     font-family: monospace;
     font-size: 10px;
     animation: rainbow 10s infinite;
