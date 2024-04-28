@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(95deg,#11998E, #38ef7d);
+    text-align: center;
+    scale: 0.1;
+}
+
+#wrapper{
+    padding-top: 200px;
+    scale: 10;
+
+    transition: all 1s ease-in-out;
+}
+
+#header{
+    font-family: monospace;
+    font-size: 25px;
+    color: #344955;
+}
+
+#passwort{
+    border-radius: 10px;
+    border: none;
+    background-color: #d8d8d8;
+    transition: all .2s ease-in-out;
+    scale: 2;
+    margin: 15px;
+}
+
+#passwort:hover{
+    scale: 2.1;
+}
+
+#passwort:focus{
+    scale: 2.2;
+    outline: none;
+}
+
+#header2{
+    font-family: monospace;
+    font-size: 15px;
+    color: #344955;
+}
+
+ul {
+    list-style: none;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+li {
+    padding: 5px;
+    transition: all .2s ease-in-out;
+}
+
+li:hover{
+    scale: 1.1;
+}
+
+

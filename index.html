@@ -1,20 +1,32 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passwort Püfer</title>
     <link rel="stylesheet" href="Style.css">
-    <script type="text/javascript" src="script.js"></script>
-    <title>Titel</title>
+    <script src="Script.js"></script>
 </head>
-
 <body>
+    <div id="wrapper">
+        <b id="header">Passwort Eingeben:</b>
+        <br>
+        <br>
+        <input type="text" id="passwort" autocomplete="off">
+        <br>
+        <p id="zähler"></p>
+        <br>
+        <b id="header2">Passwort muss folgende Foraussetzungen erfüllen:</b>
+        <br>
+        <ul>
+            <li id="check0">mind. 8 Zeichen lang sein</li>
+            <li id="check1">max. 15 Zeichen Lang sein</li>
+            <li id="check2">mind. eine Nummer enthalten</li>
+            <li id="check3">mind. ein Sonderzeichen enthalten</li>
+            <li id="check4">mind. eine Kleibuchstabe enthalten</li>
+            <li id="check5">mind. eine Großbuchstabe enthalten</li>
+        </ul>
 
-    <input type="text" id="input">
-    <button id="submit" onclick="submit()">Sendeen</button>
-
-    <div id="output"></div>
-
+    </div>
 </body>
-
 </html>
