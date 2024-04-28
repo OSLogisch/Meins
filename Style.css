@@ -56,4 +56,8 @@ li:hover{
     scale: 1.1;
 }
 
-
+#zähler {
+    font-family: monospace;
+    font-size: 7px;
+    color: #344955;
+}

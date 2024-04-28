@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
                 input=input.trim();
                 document.getElementById("passwort").value=input;
-                document.getElementById("zähler").innerText="Length : " + input.length;
+                document.getElementById("zähler").innerText="Länge : " + input.length;
     
                 //
                 if(input.length>=8){                                            //
