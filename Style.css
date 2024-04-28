@@ -64,7 +64,7 @@ li:hover{
 
 #watermark{
     font-family: monospace;
-    font-size: 10px;
+    font-size: 15px;
     animation: rainbow 10s infinite;
     text-align: left;
     margin-bottom: 200px;
